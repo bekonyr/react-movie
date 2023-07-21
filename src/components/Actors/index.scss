@@ -1,0 +1,32 @@
+#actor {
+	padding: 30px 0;
+	.actor {
+		width: 1140px;
+		display: flex;
+		align-items: start;
+		justify-content: center;
+		// background-color: #3088cc;
+		overflow-x: scroll;
+		img {
+			margin: 10px;
+			border-radius: 10px 10px 0 0;
+		}
+		&--card {
+			width: 200px;
+			height: 280px;
+
+			margin: 20px;
+			border-radius: 10px 10px;
+			-webkit-box-shadow: 0px 5px 18px 6px rgba(48, 136, 204, 0.27) inset;
+			-moz-box-shadow: 0px 5px 18px 6px rgba(48, 136, 204, 0.27) inset;
+			box-shadow: 0px 5px 18px 6px rgba(48, 136, 204, 0.27) inset;
+			h4 {
+				font-weight: 600;
+				color: darkcyan;
+			}
+			p {
+				color: #2f6792;
+			}
+		}
+	}
+}

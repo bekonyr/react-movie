@@ -1,0 +1,22 @@
+#trailer {
+	.trailer {
+        // position: relative;
+        .zoom{
+position: absolute;
+margin-left: 10%;
+        }
+		display: flex;
+		overflow-x: scroll;
+		&--scrol {
+			position: relative;
+			margin: 20px 15px;
+
+
+			
+
+			iframe {
+				border-radius: 5px;
+			}
+		}
+	}
+}

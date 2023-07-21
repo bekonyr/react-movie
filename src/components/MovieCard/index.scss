@@ -1,0 +1,39 @@
+#movieCard {
+	margin: 15px 30px;
+	.movieCard {
+		color: white;
+		background: linear-gradient(
+			90deg,
+			rgba(46, 86, 136, 1) 0%,
+			rgba(73, 121, 171, 1) 9%,
+			rgba(36, 103, 171, 1) 32%,
+			rgba(13, 152, 158, 1) 55%,
+			rgba(95, 147, 194, 1) 73%,
+			rgba(1, 116, 156, 1) 88%,
+			rgba(1, 110, 150, 1) 100%,
+			rgba(0, 212, 255, 1) 100%
+		);
+		width: 205px;
+		height: 360px;
+		-webkit-box-shadow: 2px 2px 23px 23px rgba(34, 68, 94, 0.56);
+		-moz-box-shadow: 2px 2px 23px 23px rgba(34, 68, 94, 0.56);
+		box-shadow: 2px 2px 23px 23px rgba(34, 68, 94, 0.56);
+		border-radius: 10px;
+		transition: 0.3s;
+		&:hover {
+			-webkit-box-shadow: 4px 4px 50px 24px rgba(35, 138, 217, 0.6);
+			-moz-box-shadow: 4px 4px 50px 24px rgba(35, 138, 217, 0.6);
+			box-shadow: 4px 4px 50px 24px rgba(35, 138, 217, 0.6);
+		}
+		img {
+			margin-top: 5px;
+			width: 165px;
+			height: 260px;
+			border-radius: 10px;
+		}
+		p {
+			// color: rgb(12, 106, 27);
+			margin-top: 10px;
+		}
+	}
+}

@@ -1,0 +1,80 @@
+#header{
+    background: #0c2249;
+    position: sticky;
+    z-index: 200;
+    top: 0;
+    .header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0;
+      margin: 0 40px;
+      img{
+        width: 200px;
+      }
+      &--link{
+        display: flex;
+        align-items: center;
+        gap: 35px;
+        .active{
+          color: #20b7b7;
+        }
+        a{
+          font-size: 18px;
+          color: white;
+        }
+      }
+      &--group{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 35px ;
+        a{
+          color: white;
+          font-size: 18px;
+          font-weight: 700;
+        }
+        &__dark{
+          color: white;
+          background: none;
+
+
+
+        }
+        select{
+          background: none;
+          border:1.4px solid white;
+          padding: 0 1px 2px 1px ;
+          color: white;
+          font-size: 16px;
+          text-decoration: none;
+          outline: none;
+          border-radius: 4px;
+          -webkit-appearance: none;
+          //-moz-appearance: none;
+          //appearance: none;
+          option{
+            color: white;
+            font-size: 20px;
+             background: black;
+            padding: 4px;
+            width: 200px;
+          }
+        }
+        button{
+         font-size: 18px ;
+          color: white;
+        }
+						input{
+              padding: 5px 15px;
+              border-radius: 7px;
+            }
+
+        #btn{
+          font-size: 25px;
+            background: none;
+          color: #22bfef;
+        }
+      }
+    }
+  }

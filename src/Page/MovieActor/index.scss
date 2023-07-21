@@ -1,0 +1,42 @@
+#movi {
+	margin: 40px 0;
+	border-radius: 0 0 10px 10px;
+	.movi {
+		&::-webkit-scrollbar {
+			display: none;
+		}
+		width: 840px;
+		display: flex;
+		align-items: start;
+		justify-content: center;
+		background: linear-gradient(
+			90deg,
+			rgba(46, 86, 136, 1) 0%,
+			rgba(73, 121, 171, 1) 9%,
+			rgba(36, 103, 171, 1) 32%,
+			rgba(13, 152, 158, 1) 55%,
+			rgba(95, 147, 194, 1) 73%,
+			rgba(1, 116, 156, 1) 88%,
+			rgba(1, 110, 150, 1) 100%,
+			rgba(0, 212, 255, 1) 100%
+		);
+		overflow-x: scroll;
+
+		&--block {
+			img {
+				display: flex;
+				align-items: start;
+				justify-content: center;
+				width: 150px;
+			}
+			width: 200px;
+			padding: 0 0 20px 0;
+			margin: 20px;
+
+			h4 {
+				font-weight: 600;
+				color: rgb(220, 229, 229);
+			}
+		}
+	}
+}

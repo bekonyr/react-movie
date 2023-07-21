@@ -1,0 +1,30 @@
+@import "components/Header/index.scss";
+@import "components/Home/index.scss";
+@import "components/Popular/index.scss";
+@import "components/MovieCard/index.scss";
+@import "Page/MovieActor/index.scss";
+@import "Page/MovieDetails/index.scss";
+@import "components/Actors/index.scss";
+@import "components/Actors/ActorDetails/index.scss";
+@import "components/Trailer/index.scss";
+*{
+   padding: 0;
+   margin: 0;
+   font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+    border: none;
+}
+input{
+    outline: none;
+    border: none;
+}
